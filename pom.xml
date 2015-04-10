@@ -3,7 +3,7 @@
 
   <groupId>net.gilstraps</groupId>
   <artifactId>day-picker</artifactId>
-  <version>1.3-SNAPSHOT</version>
+  <version>1.2.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>day-picker</name>
