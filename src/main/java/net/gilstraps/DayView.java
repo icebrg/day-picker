@@ -1,4 +1,4 @@
-package org.foo;
+package net.gilstraps;
 
 import java.awt.Color;
 import java.text.DateFormat;

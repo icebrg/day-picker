@@ -1,4 +1,4 @@
-package org.foo;
+package net.gilstraps;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -125,6 +125,7 @@ public class MonthView {
         mainPanel = new JPanel( new BorderLayout() );
         daysPanel = new JPanel( new GridLayout( 6, 7 ) );
         daysPanel.setBorder( new BevelBorder( BevelBorder.RAISED ) );
+        daysPanel.setBackground(Color.black);
         Dimension min = new Dimension(0,0);
         Dimension max = new Dimension(Integer.MAX_VALUE,Integer.MAX_VALUE);
         for ( int i = 0 ; i < 42 ; i++ ) {

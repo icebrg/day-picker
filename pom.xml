@@ -32,7 +32,7 @@
            <archive>
              <manifest>
                <addClasspath>true</addClasspath>
-               <mainClass>org.foo.GUI2</mainClass>
+               <mainClass>net.gilstraps.GUI2</mainClass>
              </manifest>
            </archive>
          </configuration>

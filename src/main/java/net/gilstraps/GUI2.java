@@ -1,4 +1,4 @@
-package org.foo;
+package net.gilstraps;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
@@ -111,6 +111,7 @@ public class GUI2 {
 
         Container mainPane = mainWindow.getContentPane();
         mainPane.setLayout(new BorderLayout());
+        mainPane.setBackground(Color.black);
 
 
         JPanel topPanel = new JPanel() {
@@ -127,6 +128,7 @@ public class GUI2 {
             }
         };
         topPanel.setLayout(new FlowLayout(FlowLayout.LEADING));
+        topPanel.setBackground(Color.black);
         final JButton randomize = new JButton("Randomize");
         randomize.addActionListener(new ActionListener() {
             public void actionPerformed(final ActionEvent e) {
@@ -193,6 +195,7 @@ public class GUI2 {
         mainPane.add(tabber, BorderLayout.CENTER);
 
         JComponent calendarView = createCalendarView();
+        calendarView.setBackground(Color.black);
         tabber.add(calendarView, "Calendar");
 
         JComponent randomView = createRandomView();
@@ -210,7 +213,9 @@ public class GUI2 {
         JPanel contentPane = new JPanel(new BorderLayout());
 
         randomOrderPanel = new JPanel(new GridLayout(21, 18));
+        randomOrderPanel.setBackground(Color.black);
         contentPane.add(randomOrderPanel, BorderLayout.CENTER);
+        contentPane.setBackground(Color.black);
         Dimension strip = new Dimension(10, 10000);
         contentPane.add(new Box.Filler(new Dimension(10, 0), strip, strip), BorderLayout.WEST);
         contentPane.add(new Box.Filler(new Dimension(10, 0), strip, strip), BorderLayout.EAST);

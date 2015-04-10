@@ -1,4 +1,4 @@
-package org.foo;
+package net.gilstraps;
 
 import java.security.SecureRandom;
 import java.text.DateFormat;
